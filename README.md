@@ -27,9 +27,9 @@ So then How I reached to the solution?
 
 Download the hello.py file feed your IITK credentials in the payload and just run this file using 
 <br>
-```
-python hello.py
-```
+
+1. Run `pip3 install -r requirements.txt` to install dependencies
+2. Then use command `python hello.py`
 
 Then Prompt appers
 ```
@@ -37,5 +37,13 @@ Enter how many lectures you want to scrap:
 ```
 
 Just Put in the numberand then you can see the result in the **result.csv** file
+
+Sample Output:
+```
+lecture name,week,link
+
+Bracketing Methods,Week 2,https://hello.iitk.ac.in/eso208121/#lecture/19
+...
+```
 
 Note - Currently this will only fetch ESO 208 latest lectures.
